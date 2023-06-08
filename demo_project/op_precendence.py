@@ -1,0 +1,11 @@
+# BODMAS - brackets of div/mult/add/sub
+
+print((5 + 4) * 10 / 2)
+
+print(((5 + 4) * 10) / 2)
+
+print((5 + 4) * (10 / 2))
+
+print(5 + (4 * 10) / 2)
+
+print(5 + 4 * 10 // 2)
