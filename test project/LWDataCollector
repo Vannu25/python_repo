@@ -1,0 +1,1040 @@
+time="2023-04-11T06:37:35.260Z" level=info msg="-------------------------LWDataCollector(pid=5600) started--------------------------" caller="LWLogger.cpp:101" pid=1048
+time="2023-04-11T06:37:35.260Z" level=info msg="AgentBase initialization completed" caller="AgentMain.cpp:70" pid=1048
+time="2023-04-11T06:37:35.260Z" level=info msg="LogMonitor started." caller="LWLogger.cpp:155" pid=3708
+time="2023-04-11T06:37:35.260Z" level=info msg="Logfile size: 395" caller="LWLogger.cpp:137" pid=3708
+time="2023-04-11T06:37:35.260Z" level=info msg="CPU cores = 2" caller="Config.cpp:168" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="ReadOSInfo query result: ; Microsoft Windows Server 2019 Datacenter; 10.0.17763" caller="Config.cpp:694" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="Agent GUID: 3b6a11dd-ae06-c674-8988-2a25a2ad477b" caller="Config.cpp:54" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="MachineId=4C57017B-5F63-5C5B-B0C3-719A6C5C5BDB" caller="Config.cpp:72" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="InstanceGuid=i-0d829dee43c55ec0f:r-0788fd2f557cab729" caller="Config.cpp:80" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="MachineChangeId=" caller="Config.cpp:88" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="ProductUUID=084ac4db-6647-5a9f-8415-afb566e46eae" caller="Config.cpp:100" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="shutdown hash=d697875e84914c8cedfab763bbd9d2e0233b4669b5259d663ce8462b8f92778f ProductUUID= d697875e-4914-8ced-ab76-bbd9d2e0233b" caller="Config.cpp:118" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="config.json read successfully" caller="Config.cpp:195" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="config stream read as json tree" caller="Config.cpp:270" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="schema version: 0.6" caller="Config.cpp:278" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="SaaS URL win-beta.qa9.corp.lacework.net user input URL win-beta.qa9.corp.lacework.net" caller="Config.cpp:286" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="LW Saas server URL win-beta.qa9.corp.lacework.net tok efd76 schema version: 0.6 agent version: win-1.4.1.3192" caller="Config.cpp:309" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="Containers mode flag set to 0" caller="Config.cpp:381" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="adding to filepath C:\agent_build" caller="Config.cpp:402" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="Runat value from Config 01:18:13" caller="Config.cpp:451" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="HIDS enabled flag set to 1" caller="Config.cpp:367" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="registry enabled flag set to 1" caller="Config.cpp:555" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="Sink record size set to 2000" caller="Config.cpp:501" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="Custom tags: " caller="Config.cpp:338" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="team => win-agent" caller="Config.cpp:342" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="os => Windows" caller="Config.cpp:351" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="arch => amd64" caller="Config.cpp:353" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="ConfigInit done" caller="AgentMain.cpp:73" pid=1048
+time="2023-04-11T06:37:35.275Z" level=info msg="SaasUtilityManager initialization completed" caller="AgentMain.cpp:76" pid=1048
+time="2023-04-11T06:37:35.275Z" level=warn msg="Error reading header, truncating file stream" caller="LocalDB.cpp:16" pid=1048
+time="2023-04-11T06:37:35.291Z" level=warn msg="Error reading header, truncating file stream" caller="LocalDB.cpp:16" pid=1048
+time="2023-04-11T06:37:35.291Z" level=warn msg="could not read localdb state from disk" caller="LocalDB.cpp:447" pid=1048
+time="2023-04-11T06:37:35.291Z" level=info msg="Sink initialization completed" caller="AgentMain.cpp:79" pid=1048
+time="2023-04-11T06:37:35.307Z" level=info msg="Sink::Receiver Started" caller="Sink.cpp:76" pid=5912
+time="2023-04-11T06:37:35.307Z" level=info msg="Sink::Sender Started" caller="Sink.cpp:158" pid=2592
+time="2023-04-11T06:37:35.338Z" level=info msg="elapsedMS 31" caller="Transport.cpp:680" pid=2408
+time="2023-04-11T06:37:35.338Z" level=info msg="ReportEvents: Success in http post. bytes sent: 0 total bytes sent: 0" caller="ReportEvts.cpp:37" pid=2408
+time="2023-04-11T06:37:35.338Z" level=info msg="Downloading upgrade package to version win-1.5.0.3369 from updates.lacework.net checksum: 2537871163b3b4db747977d0f4dd2fe5" caller="Upgrader.cpp:89" pid=2408
+time="2023-04-11T06:37:35.447Z" level=info msg="C:\Program Files\Lacework\osqueryi.exe has a valid signature" caller="Util.cpp:206" pid=1048
+time="2023-04-11T06:37:35.447Z" level=info msg="Signer details for C:\Program Files\Lacework\osqueryi.exe -- Issuer name: DigiCert SHA2 Assured ID Code Signing CA, Subject name: Nicholas Anderson, Thumbprint: f3964e7e80a10ba279693c30912dc4bae1240b32, Trust verification result: trusted, status : 0" caller="osquery.cpp:121" pid=1048
+time="2023-04-11T06:37:35.447Z" level=info msg="launching ... "C:\Program Files\Lacework\osqueryi.exe" --socket \\.\pipe\lwosquery.5600.0 --tls_server_certs=C:\ProgramData\Lacework\osquery.certs.pem" caller="osquery.cpp:56" pid=1048
+time="2023-04-11T06:37:35.494Z" level=info msg="Successfully launched osquery" caller="osquery.cpp:76" pid=1048
+time="2023-04-11T06:37:35.494Z" level=info msg="Started OSquery" caller="AgentMain.cpp:82" pid=1048
+time="2023-04-11T06:37:35.494Z" level=info msg="Wake up osquery watcher..." caller="osquery.cpp:151" pid=5340
+time="2023-04-11T06:37:35.494Z" level=error msg="Unable to open device VmGenerationCounter ErrorCode = 2" caller="Util.cpp:240" pid=1048
+time="2023-04-11T06:37:35.494Z" level=warn msg="Persisted machine change id: , actual machine change id: " caller="Machine.cpp:314" pid=1048
+time="2023-04-11T06:37:35.494Z" level=error msg="TPipe::open ::CreateFile errored GLE=: The system cannot find the file specified. ErrorCode = 2" caller="ExtensionManagerImpl.cpp:29" pid=5340
+time="2023-04-11T06:37:35.650Z" level=info msg="C:\Program Files\LaceworkUpgrade\LWDataCollector.msi has a valid signature" caller="Util.cpp:206" pid=2408
+time="2023-04-11T06:37:35.650Z" level=info msg="Successfully downloaded and launched upgrade package" caller="Upgrader.cpp:204" pid=2408
+time="2023-04-11T06:37:35.697Z" level=info msg="channel with osquery is open" caller="osquery.cpp:155" pid=5340
+time="2023-04-11T06:37:35.760Z" level=info msg="AWS Metadata:  InstanceNamevpc-39c60f41 SubnetIdsubnet-f12411ab ExternalIp54.149.132.90 ProjectId631664038012 NumericProjectIdami-0697ad19ab2c2369a InternalIp172.31.11.103 InstanceIdi-0d829dee43c55ec0f Zoneus-west-2c VmInstanceTypet2.large Hostnameip-172-31-11-103.us-west-2.compute.internal VmProviderAWS" caller="Machine.cpp:500" pid=1048
+time="2023-04-11T06:37:35.854Z" level=warn msg="Provider(1): OSQuery returns an empty list of machine tags" caller="Machine.cpp:701" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="CustomTags(config): [team => win-agent] [os => Windows] [arch => amd64] " caller="Machine.cpp:724" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="ExternalIp => 54.149.132.90" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="Hostname => ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="InstanceId => i-0d829dee43c55ec0f" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="InstanceName => vpc-39c60f41" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="InternalIp => 172.31.11.103" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="NumericProjectId => ami-0697ad19ab2c2369a" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="ProjectId => 631664038012" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="ReservationId => r-0788fd2f557cab729" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="SubnetId => subnet-f12411ab" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="VmInstanceType => t2.large" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="VmProvider => AWS" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="Zone => us-west-2c" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="arch => amd64" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="os => Windows" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="team => win-agent" caller="Machine.cpp:749" pid=1048
+time="2023-04-11T06:37:35.854Z" level=warn msg="Persisted instance id: i-0d829dee43c55ec0f:r-0788fd2f557cab729, Cloud instance id: i-0d829dee43c55ec0f:r-0788fd2f557cab729, isCloudVM: true" caller="Machine.cpp:321" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor initialized" caller="AgentMain.cpp:85" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="Audit PolicyWatcher running." caller="AuditPolicy.cpp:42" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="StartMonitor" caller="Monitor.cpp:63" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="User Cache" caller="Monitor.cpp:66" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Event viewer main initialized" caller="AgentMain.cpp:88" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="LWDCS is loaded and running
+" caller="vast_dks_init.cpp:38" pid=1048
+time="2023-04-11T06:37:35.854Z" level=info msg="FIMScanner Runat set to 1:18 hour: 1 min: 18. Next scan in 67260000 ms" caller="FIMScanner.cpp:218" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Not starting Containers monitoring - it is disabled by Config" caller="Monitor.cpp:83" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="StartMonitor::Process" caller="Monitor.cpp:86" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="StartMonitor::Socket" caller="Monitor.cpp:89" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="StartMonitor::CpuUsage" caller="Monitor.cpp:92" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="StartMonitor::Machine" caller="Monitor.cpp:95" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Begin Machine::Refresh" caller="Machine.cpp:14" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="Hostname: EC2AMAZ-EG79JJF domain: WORKGROUP" caller="Machine.cpp:178" pid=1764
+time="2023-04-11T06:37:35.854Z" level=info msg="os Info: Windows description: Microsoft Windows Server 2019 Datacenter arch: amd64 version: 10.0.17763" caller="Machine.cpp:186" pid=1764
+time="2023-04-11T06:37:35.869Z" level=info msg="Audit PolicyWatcher started" caller="AuditPolicy.cpp:69" pid=3612
+time="2023-04-11T06:37:35.869Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=3612
+time="2023-04-11T06:37:35.869Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=3612
+time="2023-04-11T06:37:35.869Z" level=info msg="Ticker type(3) Running. intervals-> tick: 60000 expiry: 43200000 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:213" pid=5144
+time="2023-04-11T06:37:35.869Z" level=info msg="Skipping refresh... currTime: 1681195055869000000 refreshTime: 1681195115869000000 delta: 3000000000" caller="Monitor.cpp:242" pid=5144
+time="2023-04-11T06:37:35.869Z" level=info msg="Ticker type(2) Running. intervals-> tick: 60000 expiry: 0 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:213" pid=4420
+time="2023-04-11T06:37:35.869Z" level=info msg="Ticker type(8) Running. intervals-> tick: 200 expiry: 0 refresh: 200 start in(ms): 0" caller="Monitor.cpp:213" pid=4928
+time="2023-04-11T06:37:35.869Z" level=info msg="Ticker type(1) Running. intervals-> tick: 60000 expiry: 0 refresh: 43200000 start in(ms): 0" caller="Monitor.cpp:213" pid=768
+time="2023-04-11T06:37:35.869Z" level=info msg="Driver has been force stopped
+" caller="vast_dks_init.cpp:41" pid=1048
+time="2023-04-11T06:37:35.869Z" level=info msg="Driver start succeeded 0" caller="vast_dks_init.cpp:88" pid=1048
+time="2023-04-11T06:37:35.869Z" level=info msg="Driver is loaded
+" caller="DriverManager.cpp:18" pid=1048
+time="2023-04-11T06:37:35.869Z" level=info msg="Filters: Action 0 Type 1 Subsystem 2Filter Field 0" caller="vast_dks_events.cpp:199" pid=1048
+time="2023-04-11T06:37:35.869Z" level=info msg="registry toggle 0 0 4" caller="DriverManager.cpp:171" pid=1048
+time="2023-04-11T06:37:35.869Z" level=info msg="LWPI initialized" caller="AgentMain.cpp:91" pid=1048
+time="2023-04-11T06:37:35.885Z" level=info msg="CPU Info: vendor_id:GenuineIntel model: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz cores: 2" caller="Machine.cpp:220" pid=1764
+time="2023-04-11T06:37:35.885Z" level=info msg="Memory Info: memtotal:8388608 kB" caller="Machine.cpp:251" pid=1764
+time="2023-04-11T06:37:35.900Z" level=info msg="default_router: 172.31.0.1" caller="Machine.cpp:420" pid=1764
+time="2023-04-11T06:37:35.900Z" level=info msg="MachineIds: machine_id:4C57017B-5F63-5C5B-B0C3-719A6C5C5BDB product_uuid: 084ac4db-6647-5a9f-8415-afb566e46eae boot_id: d697875e-4914-8ced-ab76-bbd9d2e0233b" caller="Machine.cpp:275" pid=1764
+time="2023-04-11T06:37:35.900Z" level=info msg="system uptime: 1680851772295" caller="Machine.cpp:401" pid=1764
+time="2023-04-11T06:37:36.010Z" level=info msg="AWS Metadata:  InstanceNamevpc-39c60f41 SubnetIdsubnet-f12411ab ExternalIp54.149.132.90 ProjectId631664038012 NumericProjectIdami-0697ad19ab2c2369a InternalIp172.31.11.103 InstanceIdi-0d829dee43c55ec0f Zoneus-west-2c VmInstanceTypet2.large Hostnameip-172-31-11-103.us-west-2.compute.internal VmProviderAWS" caller="Machine.cpp:500" pid=1764
+time="2023-04-11T06:37:36.072Z" level=info msg="Created CPU baseline samples" caller="CpuUsage.cpp:32" pid=4928
+time="2023-04-11T06:37:36.088Z" level=warn msg="Provider(1): OSQuery returns an empty list of machine tags" caller="Machine.cpp:701" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="CustomTags(config): [team => win-agent] [os => Windows] [arch => amd64] " caller="Machine.cpp:724" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="ExternalIp => 54.149.132.90" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="Hostname => ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="InstanceId => i-0d829dee43c55ec0f" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="InstanceName => vpc-39c60f41" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="InternalIp => 172.31.11.103" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="NumericProjectId => ami-0697ad19ab2c2369a" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="ProjectId => 631664038012" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="ReservationId => r-0788fd2f557cab729" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="SubnetId => subnet-f12411ab" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="VmInstanceType => t2.large" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="VmProvider => AWS" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="Zone => us-west-2c" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="arch => amd64" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="os => Windows" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.088Z" level=info msg="team => win-agent" caller="Machine.cpp:749" pid=1764
+time="2023-04-11T06:37:36.104Z" level=info msg="Total interfaces with IPEnabled = True: 4" caller="Interfaces.cpp:172" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Interface Name query: Select InterfaceIndex, Name from MSFT_NetAdapter where InterfaceIndex = 10 OR  InterfaceIndex = 9" caller="Interfaces.cpp:84" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Interface Index = 9 Name: Ethernet" caller="Interfaces.cpp:92" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Interface Index = 10 Name: vEthernet (nat)" caller="Interfaces.cpp:92" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="interface 0: index: 10 hw_addr: 00:15:5D:0B:77:50 ip_addr:172.28.64.1 ip_netmask:255.255.240.0 name:vEthernet (nat)" caller="Machine.cpp:107" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="interface 2: index: 10 hw_addr: 00:15:5D:0B:77:50 ip_addr:fe80::5477:d4f4:f528:d268 ip_netmask:ffff:ffff:ffff:ffff:: name:vEthernet (nat)" caller="Machine.cpp:107" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="interface 4: index: 9 hw_addr: 0A:16:68:75:02:57 ip_addr:172.31.11.103 ip_netmask:255.255.240.0 name:Ethernet" caller="Machine.cpp:107" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="interface 6: index: 9 hw_addr: 0A:16:68:75:02:57 ip_addr:fe80::7595:a9cb:329a:ecec ip_netmask:ffff:ffff:ffff:ffff:: name:Ethernet" caller="Machine.cpp:107" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Starting HIDS-related monitors..." caller="Monitor.cpp:99" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="StartMonitor::Registry" caller="Monitor.cpp:444" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="StartMonitor::ListeningEP" caller="Monitor.cpp:447" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Ticker type(7) Running. intervals-> tick: 60000 expiry: 0 refresh: 4294967295 start in(ms): 0" caller="Monitor.cpp:213" pid=5544
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Ticker type(9) Running. intervals-> tick: 60000 expiry: 0 refresh: 1800000 start in(ms): 0" caller="Monitor.cpp:213" pid=5492
+time="2023-04-11T06:37:36.119Z" level=info msg="User Details" caller="Monitor.cpp:450" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.119Z" level=info msg="Ticker type(10) Running. intervals-> tick: 60000 expiry: 0 refresh: 1800000 start in(ms): 0" caller="Monitor.cpp:213" pid=5216
+time="2023-04-11T06:37:36.166Z" level=info msg="User Groups count: 30" caller="UserDetails.cpp:119" pid=1764
+time="2023-04-11T06:37:36.182Z" level=info msg="Local Users count: 8" caller="UserDetails.cpp:128" pid=1764
+time="2023-04-11T06:37:36.182Z" level=info msg="Profile sids count: 6" caller="UserDetails.cpp:145" pid=1764
+time="2023-04-11T06:37:36.182Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1331034779-2530489280-769854666-5032 ErrorCode = 0" caller="Registry.cpp:273" pid=1764
+time="2023-04-11T06:37:36.182Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1331034779-2530489280-769854666-5012 ErrorCode = 0" caller="Registry.cpp:273" pid=1764
+time="2023-04-11T06:37:36.182Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1331034779-2530489280-769854666-10212 ErrorCode = 0" caller="Registry.cpp:273" pid=1764
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1331034779-2530489280-769854666-10232 ErrorCode = 0" caller="Registry.cpp:273" pid=1764
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-21-1331034779-2530489280-769854666-5042 ErrorCode = 0" caller="Registry.cpp:273" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="StartMonitor::UserLogon" caller="Monitor.cpp:453" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="StartMonitor::DNS" caller="Monitor.cpp:456" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Ticker type(11) Running. intervals-> tick: 60000 expiry: 0 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:213" pid=1236
+time="2023-04-11T06:37:36.197Z" level=info msg="StartMonitor::FIMScanner" caller="Monitor.cpp:106" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Ticker type(5) Running. intervals-> tick: 60000 expiry: 0 refresh: 40000 start in(ms): 0" caller="Monitor.cpp:213" pid=4944
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start" caller="Monitor.cpp:170" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:180" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="StartMonitor completed" caller="Monitor.cpp:117" pid=1764
+time="2023-04-11T06:37:36.197Z" level=info msg="Ticker type(6) Running. intervals-> tick: 60000 expiry: 0 refresh: 79200000 start in(ms): 67260000" caller="Monitor.cpp:213" pid=5228
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-96-0-12 ErrorCode = 0" caller="Registry.cpp:273" pid=5436
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-96-0-02 ErrorCode = 0" caller="Registry.cpp:273" pid=5436
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-90-0-12 ErrorCode = 0" caller="Registry.cpp:273" pid=5436
+time="2023-04-11T06:37:36.197Z" level=warn msg="Updated running dnscache service pidhash to: 483218824873386302" caller="Processes.cpp:140" pid=5928
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-96-0-22 ErrorCode = 0" caller="Registry.cpp:273" pid=5436
+time="2023-04-11T06:37:36.197Z" level=error msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\S-1-5-90-0-22 ErrorCode = 0" caller="Registry.cpp:273" pid=5436
+time="2023-04-11T06:37:36.338Z" level=info msg="Marked pidhash: 323285079007912960 active but failed to find 4-th ancestor pidhash: 0" caller="Processes.cpp:565" pid=4604
+time="2023-04-11T06:37:36.338Z" level=info msg="Marked pidhash: 1426645252077930617 active but failed to find 0-th ancestor pidhash: 1426645252077930617" caller="Processes.cpp:565" pid=4604
+time="2023-04-11T06:37:37.339Z" level=info msg="Marked pidhash: 1426645252077930617 active but failed to find 0-th ancestor pidhash: 1426645252077930617" caller="Processes.cpp:565" pid=4604
+time="2023-04-11T06:37:37.339Z" level=info msg="Marked pidhash: 1426645252077930617 active but failed to find 0-th ancestor pidhash: 1426645252077930617" caller="Processes.cpp:565" pid=4604
+time="2023-04-11T06:38:05.274Z" level=info msg="Logfile size: 24989" caller="LWLogger.cpp:137" pid=3708
+time="2023-04-11T06:38:08.636Z" level=info msg="LWDataCollector service enters STOP_PENDING state." caller="WinServiceRunner.cpp:62" pid=5736
+time="2023-04-11T06:38:08.636Z" level=info msg="Setting shutdown event." caller="AgentBase.cpp:26" pid=5736
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=4928
+time="2023-04-11T06:38:08.636Z" level=info msg="LogMonitor stopped." caller="LWLogger.cpp:170" pid=3708
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=4944
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(5) exited" caller="Monitor.cpp:220" pid=4944
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=1236
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(11) exited" caller="Monitor.cpp:220" pid=1236
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=5216
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(10) exited" caller="Monitor.cpp:220" pid=5216
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=5544
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(7) exited" caller="Monitor.cpp:220" pid=5544
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=5492
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(9) exited" caller="Monitor.cpp:220" pid=5492
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=768
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(1) exited" caller="Monitor.cpp:220" pid=768
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=4420
+time="2023-04-11T06:38:08.636Z" level=info msg="Audit PolicyWatcher shutting down" caller="AuditPolicy.cpp:78" pid=3612
+time="2023-04-11T06:38:08.636Z" level=info msg="Sink::Receiver Finished" caller="Sink.cpp:86" pid=5912
+time="2023-04-11T06:38:08.636Z" level=info msg="Sink::Sender- shutdown" caller="Sink.cpp:179" pid=2592
+time="2023-04-11T06:38:08.636Z" level=info msg="Sink::Sender Finished" caller="Sink.cpp:167" pid=2592
+time="2023-04-11T06:38:08.636Z" level=info msg="Agent Shutting down." caller="AgentMain.cpp:34" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Setting shutdown event." caller="AgentBase.cpp:26" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(8) exited" caller="Monitor.cpp:220" pid=4928
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=5228
+time="2023-04-11T06:38:08.636Z" level=info msg="agent shutdown - terminate watcher thread" caller="osquery.cpp:164" pid=5340
+time="2023-04-11T06:38:08.636Z" level=info msg="TickerRun finished" caller="Monitor.cpp:247" pid=5144
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(3) exited" caller="Monitor.cpp:220" pid=5144
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(2) exited" caller="Monitor.cpp:220" pid=4420
+time="2023-04-11T06:38:08.636Z" level=info msg="Ticker type(6) exited" caller="Monitor.cpp:220" pid=5228
+time="2023-04-11T06:38:08.636Z" level=info msg="Audit PolicyWatcher cleanup finished" caller="AuditPolicy.cpp:60" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Event viewer main shutdown completed" caller="AgentMain.cpp:38" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="registry toggle 0 0 4" caller="DriverManager.cpp:171" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 0 ProcessNotifyCallback counts :10 -- tmin = 10 mus, tmax = 52 mus, total = 239 mus, av = 23.9 mus, std_dev = 14.251 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 1 FileCreate 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 2 EventCreate 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 3 QueueEvent counts :148 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 4 MissedEvents 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 5 VastCommEventProcessing counts :539 -- tmin = 0 mus, tmax = 83 mus, total = 211 mus, av = 0.391466 mus, std_dev = 3.60385 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 6 NWCommEventProcessing 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 7 ProcessLookupForNW counts :137 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 8 HashMapInsert counts :129 -- tmin = 0 mus, tmax = 1 mus, total = 3 mus, av = 0.0232558 mus, std_dev = 0.150715 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 9 HashMapFind counts :3243 -- tmin = 0 mus, tmax = 141 mus, total = 254 mus, av = 0.0783225 mus, std_dev = 2.57158 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 10 HashMapDelete counts :7 -- tmin = 0 mus, tmax = 25 mus, total = 26 mus, av = 3.71429 mus, std_dev = 8.6967 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 11 HashMapVisit 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 12 MatchFilter counts :1074 -- tmin = 0 mus, tmax = 694 mus, total = 21465 mus, av = 19.986 mus, std_dev = 34.1402 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 13 ALEAuthConnect counts :4 -- tmin = 6 mus, tmax = 17 mus, total = 37 mus, av = 9.25 mus, std_dev = 4.49305 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 14 ALEAuthListen 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 15 ALERecvAccept counts :8 -- tmin = 4 mus, tmax = 10 mus, total = 62 mus, av = 7.75 mus, std_dev = 2.27761 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 16 ALEResourceAssign 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 17 ALEResourceRelease 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 18 DatagramV4 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 19 DatagramV6 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 20 TransportOutV4 counts :1187 -- tmin = 0 mus, tmax = 16 mus, total = 323 mus, av = 0.272115 mus, std_dev = 0.733772 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 21 TransportOutV6 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 22 TransportInV4 counts :1513 -- tmin = 0 mus, tmax = 9 mus, total = 870 mus, av = 0.575017 mus, std_dev = 0.660337 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 23 TransportInV6 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 24 UserTokenGrab counts :138 -- tmin = 0 mus, tmax = 39 mus, total = 776 mus, av = 5.62319 mus, std_dev = 4.86812 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 25 VastGetSidPointer counts :1 -- tmin = 5 mus, tmax = 5 mus, total = 5 mus, av = 5 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 26 ObjName 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 27 RegCallback counts :180630 -- tmin = 0 mus, tmax = 700 mus, total = 29054 mus, av = 0.160848 mus, std_dev = 3.65595 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 28 CheckToken counts :5 -- tmin = 5 mus, tmax = 8 mus, total = 32 mus, av = 6.4 mus, std_dev = 1.0198 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 29 ContainerMonitor counts :1 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 30 ContainerName counts :122 -- tmin = 0 mus, tmax = 2 mus, total = 4 mus, av = 0.0327869 mus, std_dev = 0.219329 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 31 FailedRegNtPostCreateKeyEx counts :4 -- tmin = 9.22337e+18 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 32 FailedRegNtPostCreateKey 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 33 FailedRegNtPreRenameKey 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 34 FailedRegNtPostSetValueKey 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer (in microseconds) 35 FailedRegNtPostDeleteValueKey counts :47 -- tmin = 9.22337e+18 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Timer 36 FailedRegNtPostDeleteKey 0 counts" caller="kernel-comms.cpp:376" pid=1048
+time="2023-04-11T06:38:08.636Z" level=info msg="Stopping worker thread" caller="kernel-comms.cpp:97" pid=5436
+time="2023-04-11T06:38:08.667Z" level=info msg="stop driver rv = 0
+" caller="DriverManager.cpp:83" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="LWDCS is loaded and running
+" caller="vast_dks_init.cpp:38" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Driver has been force stopped
+" caller="vast_dks_init.cpp:41" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="unload driver rv = 0
+" caller="DriverManager.cpp:85" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="LWPI shutdown completed" caller="AgentMain.cpp:41" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor Cleanup: Begins" caller="Monitor.cpp:124" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="received null connection, queue is shutting down" caller="Connections.cpp:157" pid=4604
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="received null endpoint, queue is shutting down" caller="ListeningEP.cpp:49" pid=4412
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop" caller="Monitor.cpp:185" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor::Stop completed" caller="Monitor.cpp:199" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor Cleanup: finished" caller="Monitor.cpp:165" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Monitor shutdown completed" caller="AgentMain.cpp:44" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Forcefully terminated osquery process!" caller="osquery.cpp:245" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Stopped OSquery" caller="AgentMain.cpp:47" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="Sink shutdown completed" caller="AgentMain.cpp:50" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="AgentBase shutdown completed" caller="AgentMain.cpp:53" pid=1048
+time="2023-04-11T06:38:08.667Z" level=info msg="SaasUtilityManager shutdown completed" caller="AgentMain.cpp:56" pid=1048
+time="2023-04-11T06:38:13.294Z" level=info msg="-------------------------LWDataCollector(pid=2564) started--------------------------" caller="LWLogger.cpp:101" pid=5200
+time="2023-04-11T06:38:13.309Z" level=info msg="AgentBase initialization completed" caller="AgentMain.cpp:67" pid=5200
+time="2023-04-11T06:38:13.309Z" level=info msg="LogMonitor started." caller="LWLogger.cpp:155" pid=4600
+time="2023-04-11T06:38:13.309Z" level=info msg="Logfile size: 39654" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:38:13.325Z" level=info msg="CPU cores = 2" caller="Config.cpp:170" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="ReadOSInfo query result: ; Microsoft Windows Server 2019 Datacenter; 10.0.17763" caller="Config.cpp:687" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Agent GUID: 72a55832-d068-2bd1-acb3-cd5be7c47d1d" caller="Config.cpp:56" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="MachineId=4C57017B-5F63-5C5B-B0C3-719A6C5C5BDB" caller="Config.cpp:74" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="InstanceGuid=i-0d829dee43c55ec0f:r-0788fd2f557cab729" caller="Config.cpp:82" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="MachineChangeId=" caller="Config.cpp:90" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="ProductUUID=084ac4db-6647-5a9f-8415-afb566e46eae" caller="Config.cpp:102" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="shutdown hash=d697875e84914c8cedfab763bbd9d2e0233b4669b5259d663ce8462b8f92778f ProductUUID= d697875e-4914-8ced-ab76-bbd9d2e0233b" caller="Config.cpp:120" pid=5200
+time="2023-04-11T06:38:13.341Z" level=error msg="Failed to flag, value is 0 ErrorCode = 2" caller="Config.cpp:792" pid=1450
+time="2023-04-11T06:38:13.341Z" level=info msg="config.json read successfully" caller="Config.cpp:197" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="config stream read as json tree" caller="Config.cpp:272" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="schema version: 0.7" caller="Config.cpp:275" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="SaaS URL win-beta.qa9.corp.lacework.net user input URL win-beta.qa9.corp.lacework.net" caller="Config.cpp:283" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="LW Saas server URL win-beta.qa9.corp.lacework.net tok efd76 schema version: 0.7 agent version: win-1.5.0.3369" caller="Config.cpp:297" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Containers mode flag set to 0" caller="Config.cpp:369" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="adding to filepath C:\agent_build" caller="Config.cpp:390" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Runat value from Config 01:18:13" caller="Config.cpp:439" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="HIDS enabled flag set to 1" caller="Config.cpp:355" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="registry enabled flag set to 1" caller="Config.cpp:543" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Sink record size set to 2000" caller="Config.cpp:489" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Custom tags: " caller="Config.cpp:326" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="team => win-agent" caller="Config.cpp:330" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="os => Windows" caller="Config.cpp:339" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="arch => amd64" caller="Config.cpp:341" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="autoupgrade: 1" caller="Config.cpp:557" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="ConfigInit done" caller="AgentMain.cpp:70" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="SaasUtilityManager initialization completed" caller="AgentMain.cpp:73" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Sink initialization completed" caller="AgentMain.cpp:76" pid=5200
+time="2023-04-11T06:38:13.341Z" level=error msg="Unable to open device VmGenerationCounter ErrorCode = 2" caller="Util.cpp:240" pid=5200
+time="2023-04-11T06:38:13.341Z" level=warn msg="Persisted machine change id: , actual machine change id: " caller="Machine.cpp:315" pid=5200
+time="2023-04-11T06:38:13.341Z" level=info msg="Sink::Receiver Started" caller="Sink.cpp:96" pid=1724
+time="2023-04-11T06:38:13.341Z" level=info msg="Sink::Sender Started" caller="Sink.cpp:178" pid=3352
+time="2023-04-11T06:38:13.356Z" level=info msg="Machine appears to be a AWS instance" caller="CloudMetadataClients.h:155" pid=5200
+time="2023-04-11T06:38:13.356Z" level=info msg="AWS: using IMDSv2" caller="CloudMetadataClients.cpp:199" pid=5200
+time="2023-04-11T06:38:13.356Z" level=info msg="AWS dynamic doc json {
+  "accountId" : "631664038012",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-west-2c",
+  "billingProducts" : [ "bp-6ba54002" ],
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0697ad19ab2c2369a",
+  "instanceId" : "i-0d829dee43c55ec0f",
+  "instanceType" : "t2.large",
+  "kernelId" : null,
+  "pendingTime" : "2023-04-07T07:15:15Z",
+  "privateIp" : "172.31.11.103",
+  "ramdiskId" : null,
+  "region" : "us-west-2",
+  "version" : "2017-09-30"
+}" caller="CloudMetadataClients.cpp:183" pid=5200
+time="2023-04-11T06:38:13.356Z" level=info msg="Upgrade already in progress. Skipping upgrade check at this time." caller="Upgrader.cpp:9" pid=4608
+time="2023-04-11T06:38:13.372Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.372Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.388Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Error sending http message: 400 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Error sending http message: 400 ErrorCode = 0" caller="Transport.cpp:896" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Connection  close ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Cache-Control  no-cache, no-store ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: x-amzn-RequestId  1d32fc51-08bf-46bc-9890-d093f303b657 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Content-Type  text/xml;charset=UTF-8 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Vary  accept-encoding ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:12 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Server  AmazonEC2 ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Transfer-Encoding  chunked ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Http response headers: Strict-Transport-Security  max-age=31536000; includeSubDomains ErrorCode = 0" caller="Transport.cpp:668" pid=5200
+time="2023-04-11T06:38:13.419Z" level=error msg="Error getting EC2 instance tags: The request must contain the parameter AWSAccessKeyId ErrorCode = 0" caller="CloudMetadataClients.cpp:265" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="AmiId ami-0697ad19ab2c2369a" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ExternalIp 54.149.132.90" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="HostName ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InstanceId i-0d829dee43c55ec0f" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InstanceName ec2-54-149-132-90.us-west-2.compute.amazonaws.com" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InternalIp 172.31.11.103" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ProjectId 631664038012" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Region us-west-2" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ReservationId r-0788fd2f557cab729" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="SubnetId subnet-f12411ab" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VmInstanceType t2.large" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VmProvider AWS" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VpcId vpc-39c60f41" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Zone us-west-2c" caller="Machine.cpp:436" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="CustomTags(config): [team => win-agent] [os => Windows] [arch => amd64] " caller="Machine.cpp:468" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="AmiId => ami-0697ad19ab2c2369a" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ExternalIp => 54.149.132.90" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="HostName => ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Hostname => EC2AMAZ-EG79JJF" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InstanceId => i-0d829dee43c55ec0f" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InstanceName => ec2-54-149-132-90.us-west-2.compute.amazonaws.com" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="InternalIp => 172.31.11.103" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ProjectId => 631664038012" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Region => us-west-2" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="ReservationId => r-0788fd2f557cab729" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="SubnetId => subnet-f12411ab" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VmInstanceType => t2.large" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VmProvider => AWS" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="VpcId => vpc-39c60f41" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Zone => us-west-2c" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="arch => amd64" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="os => Windows" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="team => win-agent" caller="Machine.cpp:481" pid=5200
+time="2023-04-11T06:38:13.481Z" level=warn msg="Persisted instance id: i-0d829dee43c55ec0f:r-0788fd2f557cab729, Cloud instance id: i-0d829dee43c55ec0f:r-0788fd2f557cab729, isCloudVM: true" caller="Machine.cpp:322" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor initialized" caller="AgentMain.cpp:79" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="Audit PolicyWatcher running." caller="AuditPolicy.cpp:42" pid=5200
+time="2023-04-11T06:38:13.481Z" level=info msg="StartMonitor" caller="Monitor.cpp:67" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="User Cache" caller="Monitor.cpp:70" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="FIMScanner Runat set to 1:18 hour: 1 min: 18. Next scan in 67200000 ms" caller="FIMScanner.cpp:218" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Not starting Containers monitoring - it is disabled by Config" caller="Monitor.cpp:90" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="StartMonitor::Process" caller="Monitor.cpp:93" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="StartMonitor::Socket" caller="Monitor.cpp:96" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="StartMonitor::CpuUsage" caller="Monitor.cpp:99" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="StartMonitor::Machine" caller="Monitor.cpp:102" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Begin Machine::Refresh" caller="Machine.cpp:15" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Hostname: EC2AMAZ-EG79JJF domain: WORKGROUP" caller="Machine.cpp:179" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="os Info: Windows description: Microsoft Windows Server 2019 Datacenter arch: amd64 version: 10.0.17763" caller="Machine.cpp:187" pid=2588
+time="2023-04-11T06:38:13.481Z" level=info msg="Event viewer main initialized" caller="AgentMain.cpp:82" pid=5200
+time="2023-04-11T06:38:13.497Z" level=info msg="Audit PolicyWatcher started" caller="AuditPolicy.cpp:69" pid=4120
+time="2023-04-11T06:38:13.497Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:38:13.497Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:38:13.497Z" level=info msg="Ticker type(3) Running. intervals-> tick: 60000 expiry: 43200000 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:232" pid=4588
+time="2023-04-11T06:38:13.497Z" level=info msg="Ticker type(2) Running. intervals-> tick: 60000 expiry: 0 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:232" pid=3676
+time="2023-04-11T06:38:13.497Z" level=info msg="Ticker type(8) Running. intervals-> tick: 200 expiry: 0 refresh: 200 start in(ms): 0" caller="Monitor.cpp:232" pid=1988
+time="2023-04-11T06:38:13.497Z" level=info msg="Ticker type(1) Running. intervals-> tick: 60000 expiry: 0 refresh: 43200000 start in(ms): 0" caller="Monitor.cpp:232" pid=4472
+time="2023-04-11T06:38:13.513Z" level=info msg="Driver start succeeded 0" caller="vast_dks_init.cpp:89" pid=5200
+time="2023-04-11T06:38:13.513Z" level=info msg="Driver is loaded
+" caller="DriverManager.cpp:18" pid=5200
+time="2023-04-11T06:38:13.513Z" level=info msg="CPU Info: vendor_id:GenuineIntel model: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz cores: 2" caller="Machine.cpp:221" pid=2588
+time="2023-04-11T06:38:13.513Z" level=info msg="Memory Info: memtotal:8388608 kB" caller="Machine.cpp:252" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="feature flag set to 0by config" caller="DriverManager.cpp:43" pid=1450
+time="2023-04-11T06:38:13.528Z" level=info msg="Filters: Action 0 Type 1 Subsystem 2Filter Field 0" caller="vast_dks_events.cpp:199" pid=5200
+time="2023-04-11T06:38:13.528Z" level=info msg="registry toggle 0 0 4" caller="DriverManager.cpp:169" pid=5200
+time="2023-04-11T06:38:13.528Z" level=info msg="LWPI initialized" caller="AgentMain.cpp:85" pid=5200
+time="2023-04-11T06:38:13.528Z" level=info msg="default_router: 172.31.0.1" caller="Machine.cpp:421" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="MachineIds: machine_id:4C57017B-5F63-5C5B-B0C3-719A6C5C5BDB product_uuid: 084ac4db-6647-5a9f-8415-afb566e46eae boot_id: d697875e-4914-8ced-ab76-bbd9d2e0233b" caller="Machine.cpp:276" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="system uptime: 1680851772300" caller="Machine.cpp:402" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="Machine appears to be a AWS instance" caller="CloudMetadataClients.h:155" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="AWS: using IMDSv2" caller="CloudMetadataClients.cpp:199" pid=2588
+time="2023-04-11T06:38:13.528Z" level=info msg="AWS dynamic doc json {
+  "accountId" : "631664038012",
+  "architecture" : "x86_64",
+  "availabilityZone" : "us-west-2c",
+  "billingProducts" : [ "bp-6ba54002" ],
+  "devpayProductCodes" : null,
+  "marketplaceProductCodes" : null,
+  "imageId" : "ami-0697ad19ab2c2369a",
+  "instanceId" : "i-0d829dee43c55ec0f",
+  "instanceType" : "t2.large",
+  "kernelId" : null,
+  "pendingTime" : "2023-04-07T07:15:15Z",
+  "privateIp" : "172.31.11.103",
+  "ramdiskId" : null,
+  "region" : "us-west-2",
+  "version" : "2017-09-30"
+}" caller="CloudMetadataClients.cpp:183" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.544Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.559Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Error sending http message: 404 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Connection  keep-alive ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Content-Type  text/html ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Content-Length  337 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: X-Aws-Ec2-Metadata-Token-Ttl-Seconds  21600 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Server  EC2ws ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Error sending http message: 400 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Error sending http message: 400 ErrorCode = 0" caller="Transport.cpp:896" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Connection  close ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Cache-Control  no-cache, no-store ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: x-amzn-RequestId  04da741d-1320-4000-8b38-736166c134e5 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Content-Type  text/xml;charset=UTF-8 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Vary  accept-encoding ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Date  Tue, 11 Apr 2023 06:38:13 GMT ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Server  AmazonEC2 ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Transfer-Encoding  chunked ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Http response headers: Strict-Transport-Security  max-age=31536000; includeSubDomains ErrorCode = 0" caller="Transport.cpp:668" pid=2588
+time="2023-04-11T06:38:13.575Z" level=error msg="Error getting EC2 instance tags: The request must contain the parameter AWSAccessKeyId ErrorCode = 0" caller="CloudMetadataClients.cpp:265" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="AmiId ami-0697ad19ab2c2369a" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ExternalIp 54.149.132.90" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="HostName ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InstanceId i-0d829dee43c55ec0f" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InstanceName ec2-54-149-132-90.us-west-2.compute.amazonaws.com" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InternalIp 172.31.11.103" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ProjectId 631664038012" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="Region us-west-2" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ReservationId r-0788fd2f557cab729" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="SubnetId subnet-f12411ab" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VmInstanceType t2.large" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VmProvider AWS" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VpcId vpc-39c60f41" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="Zone us-west-2c" caller="Machine.cpp:436" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="CustomTags(config): [team => win-agent] [os => Windows] [arch => amd64] " caller="Machine.cpp:468" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="AmiId => ami-0697ad19ab2c2369a" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ExternalIp => 54.149.132.90" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="HostName => ip-172-31-11-103.us-west-2.compute.internal" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="Hostname => EC2AMAZ-EG79JJF" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InstanceId => i-0d829dee43c55ec0f" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InstanceName => ec2-54-149-132-90.us-west-2.compute.amazonaws.com" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="InternalIp => 172.31.11.103" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ProjectId => 631664038012" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="Region => us-west-2" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="ReservationId => r-0788fd2f557cab729" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="SubnetId => subnet-f12411ab" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VmInstanceType => t2.large" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VmProvider => AWS" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="VpcId => vpc-39c60f41" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="Zone => us-west-2c" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="arch => amd64" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="os => Windows" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.669Z" level=info msg="team => win-agent" caller="Machine.cpp:481" pid=2588
+time="2023-04-11T06:38:13.684Z" level=info msg="Total interfaces with IPEnabled = True: 4" caller="Interfaces.cpp:172" pid=2588
+time="2023-04-11T06:38:13.700Z" level=info msg="Created CPU baseline samples" caller="CpuUsage.cpp:32" pid=1988
+time="2023-04-11T06:38:13.700Z" level=info msg="Interface Name query: Select InterfaceIndex, Name from MSFT_NetAdapter where InterfaceIndex = 10 OR  InterfaceIndex = 9" caller="Interfaces.cpp:84" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Interface Index = 9 Name: Ethernet" caller="Interfaces.cpp:92" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Interface Index = 10 Name: vEthernet (nat)" caller="Interfaces.cpp:92" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="interface 0: index: 10 hw_addr: 00:15:5D:0B:77:50 ip_addr:172.28.64.1 ip_netmask:255.255.240.0 name:vEthernet (nat)" caller="Machine.cpp:108" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="interface 2: index: 10 hw_addr: 00:15:5D:0B:77:50 ip_addr:fe80::5477:d4f4:f528:d268 ip_netmask:ffff:ffff:ffff:ffff:: name:vEthernet (nat)" caller="Machine.cpp:108" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="interface 4: index: 9 hw_addr: 0A:16:68:75:02:57 ip_addr:172.31.11.103 ip_netmask:255.255.240.0 name:Ethernet" caller="Machine.cpp:108" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="interface 6: index: 9 hw_addr: 0A:16:68:75:02:57 ip_addr:fe80::7595:a9cb:329a:ecec ip_netmask:ffff:ffff:ffff:ffff:: name:Ethernet" caller="Machine.cpp:108" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Starting HIDS-related monitors..." caller="Monitor.cpp:106" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="StartMonitor::Registry" caller="Monitor.cpp:479" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="StartMonitor::ListeningEP" caller="Monitor.cpp:482" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="User Details" caller="Monitor.cpp:485" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.747Z" level=info msg="Ticker type(7) Running. intervals-> tick: 60000 expiry: 0 refresh: 4294967295 start in(ms): 0" caller="Monitor.cpp:232" pid=1248
+time="2023-04-11T06:38:13.747Z" level=info msg="Ticker type(9) Running. intervals-> tick: 60000 expiry: 0 refresh: 1800000 start in(ms): 0" caller="Monitor.cpp:232" pid=6052
+time="2023-04-11T06:38:13.747Z" level=info msg="Ticker type(10) Running. intervals-> tick: 60000 expiry: 0 refresh: 1800000 start in(ms): 0" caller="Monitor.cpp:232" pid=5628
+time="2023-04-11T06:38:13.778Z" level=info msg="User Groups count: 30" caller="UserDetails.cpp:116" pid=2588
+time="2023-04-11T06:38:13.794Z" level=info msg="Local Users count: 8" caller="UserDetails.cpp:125" pid=2588
+time="2023-04-11T06:38:13.794Z" level=info msg="Profile sids count: 6" caller="UserDetails.cpp:148" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="StartMonitor::UserLogon" caller="Monitor.cpp:488" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="StartMonitor::DNS" caller="Monitor.cpp:491" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Ticker type(11) Running. intervals-> tick: 60000 expiry: 0 refresh: 60000 start in(ms): 0" caller="Monitor.cpp:232" pid=3896
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="StartMonitor::FIMScanner" caller="Monitor.cpp:113" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Ticker type(5) Running. intervals-> tick: 60000 expiry: 0 refresh: 40000 start in(ms): 0" caller="Monitor.cpp:232" pid=384
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="StartMonitor::VulnMgmt" caller="Monitor.cpp:120" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Ticker type(6) Running. intervals-> tick: 60000 expiry: 0 refresh: 79200000 start in(ms): 67200000" caller="Monitor.cpp:232" pid=3032
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start" caller="Monitor.cpp:189" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Monitor::Start completed" caller="Monitor.cpp:199" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="StartMonitor completed" caller="Monitor.cpp:131" pid=2588
+time="2023-04-11T06:38:13.809Z" level=info msg="Ticker type(15) Running. intervals-> tick: 60000 expiry: 0 refresh: 86400000 start in(ms): 60000" caller="Monitor.cpp:232" pid=5408
+time="2023-04-11T06:38:13.825Z" level=warn msg="Updated running dnscache service pidhash to: 483218824873386302" caller="Processes.cpp:152" pid=6040
+time="2023-04-11T06:38:13.825Z" level=info msg="Marked pidhash: 323285079007912960 active but failed to find 4-th ancestor pidhash: 0" caller="Processes.cpp:600" pid=5264
+time="2023-04-11T06:38:43.311Z" level=info msg="Logfile size: 74984" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:38:58.365Z" level=info msg="Completing RequestWithRetry. elapsedMS: 15Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:38:58.365Z" level=info msg="ReportEvents: Success in http post. bytes sent: 2036 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:39:13.311Z" level=info msg="Logfile size: 75397" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:39:13.499Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:39:13.499Z" level=info msg="Connections statistics: "eventsQueued":"5","sentNetDetails":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:39:13.499Z" level=info msg="Connections LRU stats:"newlyAdded":"2","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:39:13.499Z" level=info msg="Connections queue stats:"queued":"5","dequeued":"5"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:39:13.499Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:39:13.499Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:39:13.499Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:39:13.499Z" level=info msg="Process statistics: "eventsQueued":"120","cmdLinesSent":"5","netEventsWithoutProcess":"1","procDetailsSent":"5","procStatsSent":"5"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:39:13.499Z" level=info msg="Process LRU stats:"newlyAdded":"116"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:39:13.499Z" level=info msg="Process queue stats:"queued":"120","dequeued":"120"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:39:13.811Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:39:13.811Z" level=info msg="DNS Refresh. Cache size: 0" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:39:13.811Z" level=info msg="Begin VulnMgmt::Refresh" caller="VulnMgmt.cpp:9" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Getting all local users from registry" caller="Applications.cpp:242" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total local users from registry: 6" caller="Applications.cpp:253" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit user applications" caller="Applications.cpp:34" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-19\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=1 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit user applications" caller="Applications.cpp:37" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-19\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=0 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit user applications" caller="Applications.cpp:34" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-20\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=1 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit user applications" caller="Applications.cpp:37" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=0 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit user applications" caller="Applications.cpp:34" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-21-1331034779-2530489280-769854666-500\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=1 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit user applications" caller="Applications.cpp:37" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 0 products(without filter) discovered for user path S-1-5-21-1331034779-2530489280-769854666-500\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=0 Total add-remove products = 0" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit user applications" caller="Applications.cpp:34" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit user applications" caller="Applications.cpp:37" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit user applications" caller="Applications.cpp:34" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit user applications" caller="Applications.cpp:37" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Finished with user applications" caller="Applications.cpp:20" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 32-bit system applications" caller="Applications.cpp:44" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 18 products(without filter) discovered for user path SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=1 Total add-remove products = 5" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Gettting 64-bit system applications" caller="Applications.cpp:47" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=error msg="Error opening file. Error: 3 ErrorCode = 3" caller="FileUtils.cpp:142" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total 20 products(without filter) discovered for user path SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall. arch 32-bit=0 Total add-remove products = 8" caller="Applications.cpp:78" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Finished with system applications" caller="Applications.cpp:23" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Total apps reported = 8" caller="Applications.cpp:216" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="Begin Hotfixes::ReportHotfixes" caller="Hotfixes.cpp:20" pid=5408
+time="2023-04-11T06:39:13.811Z" level=warn msg="RegOpenKeyEx failed for SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired error: 2" caller="Registry.cpp:283" pid=5408
+time="2023-04-11T06:39:13.811Z" level=info msg="System Patch reboot pending state: 0" caller="Hotfixes.cpp:335" pid=5408
+time="2023-04-11T06:39:13.843Z" level=info msg="DNS Server = " caller="DNS.cpp:172" pid=384
+time="2023-04-11T06:39:13.843Z" level=info msg="DNS Server = 172.31.0.2" caller="DNS.cpp:172" pid=384
+time="2023-04-11T06:39:13.843Z" level=info msg="DNS Server = 172.31.0.2" caller="DNS.cpp:181" pid=384
+time="2023-04-11T06:39:13.843Z" level=info msg="New serverIPRefreshTime: 1681195753843000000 interval = 600000000000" caller="DNS.cpp:189" pid=384
+time="2023-04-11T06:39:13.889Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:39:14.814Z" level=error msg="Previous session info: logonId: 999 user: NT AUTHORITY\d621c1a7169f2ca51bc8 ErrorCode = 0" caller="UserLogon.cpp:59" pid=1232
+time="2023-04-11T06:39:16.252Z" level=error msg="Previous session info: logonId: 999 user: NT AUTHORITY\d621c1a7169f2ca51bc8 ErrorCode = 0" caller="UserLogon.cpp:59" pid=1232
+time="2023-04-11T06:39:18.645Z" level=info msg="WUA update Search finished with result code: 2" caller="Hotfixes.cpp:284" pid=5408
+time="2023-04-11T06:39:18.645Z" level=info msg="Total WUA updates: 5" caller="Hotfixes.cpp:147" pid=5408
+time="2023-04-11T06:39:18.645Z" level=info msg="Finished with GetWUAHotfixes" caller="Hotfixes.cpp:84" pid=5408
+time="2023-04-11T06:39:21.646Z" level=info msg="Total QFE entries: 41 Overlap with WUA: 2 only QFE entries: 39" caller="Hotfixes.cpp:322" pid=5408
+time="2023-04-11T06:39:21.646Z" level=info msg="Total hotfixes being reported: 43 system reboot pending: 0" caller="Hotfixes.cpp:360" pid=5408
+time="2023-04-11T06:39:21.646Z" level=info msg="Finished with ReportToSinkUsingFlexiSchema" caller="Hotfixes.cpp:370" pid=5408
+time="2023-04-11T06:39:21.646Z" level=info msg="End Hotfixes::ReportHotfixes" caller="Hotfixes.cpp:29" pid=5408
+time="2023-04-11T06:39:21.646Z" level=info msg="End VulnMgmt::Refresh" caller="VulnMgmt.cpp:25" pid=5408
+time="2023-04-11T06:39:43.314Z" level=info msg="Logfile size: 87661" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:39:43.361Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:39:43.361Z" level=info msg="ReportEvents: Success in http post. bytes sent: 2525 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:40:13.326Z" level=info msg="Logfile size: 88073" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:40:13.498Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:40:13.498Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:40:13.513Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:40:13.513Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:40:13.513Z" level=info msg="Connections statistics: "eventsQueued":"24","sentNetDetails":"8","filteredDNSConnections":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:40:13.513Z" level=info msg="Connections LRU stats:"newlyAdded":"6","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:40:13.513Z" level=info msg="Connections queue stats:"queued":"24","dequeued":"24"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:40:13.513Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:40:13.513Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:40:13.513Z" level=info msg="Process statistics: "eventsQueued":"133","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"9","procStatsSent":"12"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:40:13.513Z" level=info msg="Process LRU stats:"newlyAdded":"123"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:40:13.513Z" level=info msg="Process queue stats:"queued":"133","dequeued":"133"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:40:13.826Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:40:13.904Z" level=info msg="DNS Refresh. Cache size: 0" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:40:13.919Z" level=info msg="Total OS DNS entries: 2" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:40:28.365Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:40:28.365Z" level=info msg="ReportEvents: Success in http post. bytes sent: 998 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:40:43.327Z" level=info msg="Logfile size: 90647" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:41:13.338Z" level=info msg="Logfile size: 90752" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:41:13.525Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:41:13.525Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:41:13.525Z" level=info msg="Connections statistics: "eventsQueued":"26","sentNetDetails":"10","filteredDNSConnections":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:41:13.525Z" level=info msg="Connections LRU stats:"newlyAdded":"6","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:41:13.525Z" level=info msg="Connections queue stats:"queued":"26","dequeued":"26"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:41:13.525Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:41:13.525Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:41:13.525Z" level=info msg="Process statistics: "eventsQueued":"134","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"12","procStatsSent":"19"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:41:13.525Z" level=info msg="Process LRU stats:"newlyAdded":"123"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:41:13.525Z" level=info msg="Process queue stats:"queued":"134","dequeued":"134"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:41:13.838Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:41:13.932Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:41:13.947Z" level=info msg="Total OS DNS entries: 1" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:41:43.339Z" level=info msg="Logfile size: 92765" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:41:58.385Z" level=info msg="Completing RequestWithRetry. elapsedMS: 16Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:41:58.385Z" level=info msg="ReportEvents: Success in http post. bytes sent: 842 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:42:13.353Z" level=info msg="Logfile size: 93177" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:42:13.509Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:42:13.509Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:42:13.540Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:42:13.540Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:42:13.540Z" level=info msg="Connections statistics: "eventsQueued":"31","sentNetDetails":"13","filteredDNSConnections":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:42:13.540Z" level=info msg="Connections LRU stats:"newlyAdded":"7","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:42:13.540Z" level=info msg="Connections queue stats:"queued":"31","dequeued":"31"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:42:13.540Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:42:13.540Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:42:13.540Z" level=info msg="Process statistics: "eventsQueued":"136","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"13","procStatsSent":"26"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:42:13.540Z" level=info msg="Process LRU stats:"newlyAdded":"123"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:42:13.540Z" level=info msg="Process queue stats:"queued":"136","dequeued":"136"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:42:13.853Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:42:13.962Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:42:13.962Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:42:43.354Z" level=info msg="Logfile size: 95447" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:42:43.370Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:42:43.370Z" level=info msg="ReportEvents: Success in http post. bytes sent: 678 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:43:13.357Z" level=info msg="Logfile size: 95858" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:43:13.544Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:43:13.544Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:43:13.544Z" level=info msg="Connections statistics: "eventsQueued":"32","sentNetDetails":"15","filteredDNSConnections":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:43:13.544Z" level=info msg="Connections LRU stats:"newlyAdded":"7","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:43:13.544Z" level=info msg="Connections queue stats:"queued":"32","dequeued":"32"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:43:13.544Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:43:13.544Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:43:13.544Z" level=info msg="Process statistics: "eventsQueued":"136","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"17","procStatsSent":"33"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:43:13.544Z" level=info msg="Process LRU stats:"newlyAdded":"123"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:43:13.544Z" level=info msg="Process queue stats:"queued":"136","dequeued":"136"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:43:13.857Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:43:13.982Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:43:14.013Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:43:28.397Z" level=info msg="Completing RequestWithRetry. elapsedMS: 16Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:43:28.397Z" level=info msg="ReportEvents: Success in http post. bytes sent: 816 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:43:43.358Z" level=info msg="Logfile size: 98178" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:44:13.365Z" level=info msg="Logfile size: 98283" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:44:13.521Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:44:13.521Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:44:13.552Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:44:13.552Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:44:13.552Z" level=info msg="Connections statistics: "eventsQueued":"40","sentNetDetails":"21","filteredDNSConnections":"2"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:44:13.552Z" level=info msg="Connections LRU stats:"newlyAdded":"11","alreadyThere":"1" active connections in the cache: 6" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:44:13.552Z" level=info msg="Connections queue stats:"queued":"40","dequeued":"40"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:44:13.552Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:44:13.552Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:44:13.552Z" level=info msg="Process statistics: "eventsQueued":"142","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"19","procStatsSent":"40"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:44:13.552Z" level=info msg="Process LRU stats:"newlyAdded":"124"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:44:13.552Z" level=info msg="Process queue stats:"queued":"142","dequeued":"142"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:44:13.865Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:44:14.037Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:44:14.052Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:44:43.365Z" level=info msg="Logfile size: 100554" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:44:58.420Z" level=info msg="Completing RequestWithRetry. elapsedMS: 15Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:44:58.420Z" level=info msg="ReportEvents: Success in http post. bytes sent: 881 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:45:13.371Z" level=info msg="Logfile size: 100967" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:45:13.559Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:45:13.559Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:45:13.559Z" level=info msg="Connections statistics: "eventsQueued":"52","sentNetDetails":"28","filteredDNSConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:45:13.559Z" level=info msg="Connections LRU stats:"newlyAdded":"12","alreadyThere":"1" active connections in the cache: 5" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:45:13.559Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:45:13.559Z" level=info msg="Connections queue stats:"queued":"52","dequeued":"52"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:45:13.559Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:45:13.559Z" level=info msg="Process statistics: "eventsQueued":"142","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"22","procStatsSent":"47"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:45:13.559Z" level=info msg="Process LRU stats:"newlyAdded":"124"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:45:13.559Z" level=info msg="Process queue stats:"queued":"142","dequeued":"142"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:45:13.871Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:45:14.059Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:45:14.074Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:45:43.373Z" level=info msg="Logfile size: 102982" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:45:43.420Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:45:43.420Z" level=info msg="ReportEvents: Success in http post. bytes sent: 902 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:46:13.382Z" level=info msg="Logfile size: 103394" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:46:13.522Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:46:13.522Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:46:13.569Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:46:13.569Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:46:13.569Z" level=info msg="Connections statistics: "eventsQueued":"53","sentNetDetails":"33","filteredDNSConnections":"4","staleConnections":"3"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:46:13.569Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:46:13.569Z" level=info msg="Connections LRU stats:"newlyAdded":"12","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:46:13.569Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:46:13.569Z" level=info msg="Connections queue stats:"queued":"53","dequeued":"53"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:46:13.569Z" level=info msg="Process statistics: "eventsQueued":"142","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"24","procStatsSent":"54"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:46:13.569Z" level=info msg="Process LRU stats:"newlyAdded":"124"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:46:13.569Z" level=info msg="Process queue stats:"queued":"142","dequeued":"142"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:46:13.882Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:46:14.085Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:46:14.100Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:46:28.421Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:46:28.421Z" level=info msg="ReportEvents: Success in http post. bytes sent: 799 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:46:43.383Z" level=info msg="Logfile size: 105995" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:47:13.389Z" level=info msg="Logfile size: 106101" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:47:13.576Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:47:13.576Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:47:13.576Z" level=info msg="Connections statistics: "eventsQueued":"55","sentNetDetails":"35","filteredDNSConnections":"4","staleConnections":"3"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:47:13.576Z" level=info msg="Connections LRU stats:"newlyAdded":"12","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:47:13.576Z" level=info msg="Connections queue stats:"queued":"55","dequeued":"55"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:47:13.576Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:47:13.576Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:47:13.576Z" level=info msg="Process statistics: "eventsQueued":"142","cmdLinesSent":"7","netEventsWithoutProcess":"1","procDetailsSent":"27","procStatsSent":"61"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:47:13.576Z" level=info msg="Process LRU stats:"newlyAdded":"124"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:47:13.576Z" level=info msg="Process queue stats:"queued":"142","dequeued":"142"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:47:13.889Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:47:14.107Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:47:14.139Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:47:43.390Z" level=info msg="Logfile size: 108139" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:47:58.463Z" level=info msg="Completing RequestWithRetry. elapsedMS: 15Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:47:58.463Z" level=info msg="ReportEvents: Success in http post. bytes sent: 837 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:48:13.404Z" level=info msg="Logfile size: 108552" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:48:13.529Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:48:13.529Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 0 ProcessNotifyCallback counts :31 -- tmin = 11 mus, tmax = 61 mus, total = 653 mus, av = 21.0645 mus, std_dev = 7.99974 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 1 FileCreate 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 2 EventCreate 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 3 QueueEvent counts :213 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 4 MissedEvents 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 5 VastCommEventProcessing counts :9647 -- tmin = 0 mus, tmax = 72 mus, total = 4159 mus, av = 0.431118 mus, std_dev = 0.978147 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 6 NWCommEventProcessing 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 7 ProcessLookupForNW counts :157 -- tmin = 0 mus, tmax = 4 mus, total = 4 mus, av = 0.0254777 mus, std_dev = 0.318216 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 8 HashMapInsert counts :144 -- tmin = 0 mus, tmax = 2 mus, total = 10 mus, av = 0.0694444 mus, std_dev = 0.280198 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 9 HashMapFind counts :8193 -- tmin = 0 mus, tmax = 61 mus, total = 146 mus, av = 0.0178201 mus, std_dev = 0.707012 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 10 HashMapDelete counts :30 -- tmin = 0 mus, tmax = 3 mus, total = 9 mus, av = 0.3 mus, std_dev = 0.737111 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 11 HashMapVisit 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 12 MatchFilter counts :1977 -- tmin = 0 mus, tmax = 138 mus, total = 20884 mus, av = 10.5635 mus, std_dev = 10.2858 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 13 ALEAuthConnect counts :15 -- tmin = 3 mus, tmax = 14 mus, total = 99 mus, av = 6.6 mus, std_dev = 2.38886 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 14 ALEAuthListen 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 15 ALERecvAccept counts :4 -- tmin = 2 mus, tmax = 10 mus, total = 23 mus, av = 5.75 mus, std_dev = 3.34477 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 16 ALEResourceAssign counts :17 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 17 ALEResourceRelease counts :16 -- tmin = 0 mus, tmax = 3 mus, total = 18 mus, av = 1.125 mus, std_dev = 0.927025 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 18 DatagramV4 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 19 DatagramV6 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 20 TransportOutV4 counts :2309 -- tmin = 0 mus, tmax = 8 mus, total = 1228 mus, av = 0.531832 mus, std_dev = 0.942457 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 21 TransportOutV6 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 22 TransportInV4 counts :3246 -- tmin = 0 mus, tmax = 63 mus, total = 2297 mus, av = 0.70764 mus, std_dev = 1.39354 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 23 TransportInV6 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 24 UserTokenGrab counts :1206 -- tmin = 0 mus, tmax = 89 mus, total = 1187 mus, av = 0.984245 mus, std_dev = 3.74506 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 25 VastGetSidPointer counts :1 -- tmin = 6 mus, tmax = 6 mus, total = 6 mus, av = 6 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 26 ObjName 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 27 RegCallback counts :871634 -- tmin = 0 mus, tmax = 2405 mus, total = 31788 mus, av = 0.0364694 mus, std_dev = 2.9172 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 28 CheckToken counts :19 -- tmin = 5 mus, tmax = 55 mus, total = 184 mus, av = 9.68421 mus, std_dev = 10.7216 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 29 ContainerMonitor counts :1 -- tmin = 0 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 30 ContainerName counts :125 -- tmin = 0 mus, tmax = 2 mus, total = 11 mus, av = 0.088 mus, std_dev = 0.310252 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 31 FailedRegNtPostCreateKeyEx counts :36 -- tmin = 9.22337e+18 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 32 FailedRegNtPostCreateKey 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 33 FailedRegNtPreRenameKey 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 34 FailedRegNtPostSetValueKey 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 35 FailedRegNtPostDeleteValueKey counts :105 -- tmin = 9.22337e+18 mus, tmax = 0 mus, total = 0 mus, av = 0 mus, std_dev = 0 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 36 FailedRegNtPostDeleteKey 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer (in microseconds) 37 LoadImageNotify counts :698 -- tmin = 0 mus, tmax = 8 mus, total = 734 mus, av = 1.05158 mus, std_dev = 1.32539 mus" caller="kernel-comms.cpp:367" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 38 ObCallback 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.545Z" level=info msg="Timer 39 LogTokenFailures 0 counts" caller="kernel-comms.cpp:376" pid=5924
+time="2023-04-11T06:48:13.591Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:48:13.591Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:48:13.591Z" level=info msg="Per process connection count" caller="Connections.cpp:290" pid=3676
+time="2023-04-11T06:48:13.591Z" level=info msg="Incoming connections per process: 323285079007912960:1 " caller="Connections.cpp:300" pid=3676
+time="2023-04-11T06:48:13.591Z" level=info msg="Outgoing connections per process: 721725763663920085:1 730787279993997194:1 " caller="Connections.cpp:301" pid=3676
+time="2023-04-11T06:48:13.591Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:48:13.591Z" level=info msg="Connections statistics: "eventsQueued":"63","sentNetDetails":"39","filteredDNSConnections":"4","staleConnections":"3"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:48:13.591Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:48:13.591Z" level=info msg="Connections LRU stats:"newlyAdded":"14","alreadyThere":"1" active connections in the cache: 3" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:48:13.591Z" level=info msg="Connections queue stats:"queued":"63","dequeued":"63"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:48:13.591Z" level=info msg="Process statistics: "eventsQueued":"144","cmdLinesSent":"8","netEventsWithoutProcess":"1","procDetailsSent":"31","procStatsSent":"69"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:48:13.591Z" level=info msg="Process LRU stats:"newlyAdded":"125"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:48:13.591Z" level=info msg="Process queue stats:"queued":"144","dequeued":"144"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:48:13.904Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:48:14.170Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:48:14.185Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:48:43.406Z" level=info msg="Logfile size: 118653" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:48:43.453Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:48:43.453Z" level=info msg="ReportEvents: Success in http post. bytes sent: 1016 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:49:13.406Z" level=info msg="Logfile size: 119066" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:49:13.594Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:49:13.594Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:49:13.594Z" level=info msg="Connections statistics: "eventsQueued":"64","sentNetDetails":"42","filteredDNSConnections":"4","staleConnections":"3"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:49:13.594Z" level=info msg="Connections LRU stats:"newlyAdded":"14","alreadyThere":"1" active connections in the cache: 3" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:49:13.594Z" level=info msg="Connections queue stats:"queued":"64","dequeued":"64"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:49:13.594Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:49:13.594Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:49:13.594Z" level=info msg="Process statistics: "eventsQueued":"144","cmdLinesSent":"8","netEventsWithoutProcess":"1","procDetailsSent":"33","procStatsSent":"77"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:49:13.594Z" level=info msg="Process LRU stats:"newlyAdded":"125"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:49:13.594Z" level=info msg="Process queue stats:"queued":"144","dequeued":"144"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:49:13.910Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:49:14.192Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:49:14.255Z" level=info msg="DNS Server = " caller="DNS.cpp:172" pid=384
+time="2023-04-11T06:49:14.255Z" level=info msg="DNS Server = 172.31.0.2" caller="DNS.cpp:172" pid=384
+time="2023-04-11T06:49:14.255Z" level=info msg="DNS Server = 172.31.0.2" caller="DNS.cpp:181" pid=384
+time="2023-04-11T06:49:14.255Z" level=info msg="New serverIPRefreshTime: 1681196354255000000 interval = 600000000000" caller="DNS.cpp:189" pid=384
+time="2023-04-11T06:49:14.270Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:49:28.466Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:49:28.466Z" level=info msg="ReportEvents: Success in http post. bytes sent: 792 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:49:43.415Z" level=info msg="Logfile size: 121857" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:50:13.422Z" level=info msg="Logfile size: 121963" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:50:13.531Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:50:13.531Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:50:13.610Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:50:13.610Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:50:13.610Z" level=info msg="Connections statistics: "eventsQueued":"66","sentNetDetails":"45","filteredDNSConnections":"4","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:50:13.610Z" level=info msg="Connections LRU stats:"newlyAdded":"14","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:50:13.610Z" level=info msg="Connections queue stats:"queued":"66","dequeued":"66"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:50:13.610Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:50:13.610Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:50:13.610Z" level=info msg="Process statistics: "eventsQueued":"149","cmdLinesSent":"8","netEventsWithoutProcess":"1","procDetailsSent":"35","procStatsSent":"84"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:50:13.610Z" level=info msg="Process LRU stats:"newlyAdded":"129"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:50:13.610Z" level=info msg="Process queue stats:"queued":"149","dequeued":"149"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:50:13.922Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:50:14.282Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:50:14.313Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:50:43.424Z" level=info msg="Logfile size: 124258" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:50:58.558Z" level=info msg="Completing RequestWithRetry. elapsedMS: 78Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:50:58.558Z" level=info msg="ReportEvents: Success in http post. bytes sent: 801 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:51:13.436Z" level=info msg="Logfile size: 124671" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:51:13.623Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:51:13.623Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:51:13.623Z" level=info msg="Connections statistics: "eventsQueued":"76","sentNetDetails":"49","filteredDNSConnections":"4","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:51:13.623Z" level=info msg="Connections LRU stats:"newlyAdded":"16","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:51:13.623Z" level=info msg="Connections queue stats:"queued":"76","dequeued":"76"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:51:13.623Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:51:13.623Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:51:13.623Z" level=info msg="Process statistics: "eventsQueued":"153","cmdLinesSent":"8","netEventsWithoutProcess":"1","procDetailsSent":"37","procStatsSent":"91"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:51:13.623Z" level=info msg="Process LRU stats:"newlyAdded":"130"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:51:13.623Z" level=info msg="Process queue stats:"queued":"153","dequeued":"153"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:51:13.936Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:51:14.327Z" level=info msg="DNS Refresh. Cache size: 2" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:51:14.343Z" level=info msg="Total OS DNS entries: 3" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:51:43.439Z" level=info msg="Logfile size: 126709" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:51:43.486Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:51:43.486Z" level=info msg="ReportEvents: Success in http post. bytes sent: 918 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:52:13.452Z" level=info msg="Logfile size: 127121" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:52:13.546Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:52:13.546Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:52:13.624Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:52:13.624Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:52:13.624Z" level=info msg="Connections statistics: "eventsQueued":"77","sentNetDetails":"51","filteredDNSConnections":"4","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:52:13.624Z" level=info msg="Connections LRU stats:"newlyAdded":"16","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:52:13.624Z" level=info msg="Connections queue stats:"queued":"77","dequeued":"77"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:52:13.624Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:52:13.624Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:52:13.624Z" level=info msg="Process statistics: "eventsQueued":"156","cmdLinesSent":"8","netEventsWithoutProcess":"1","procDetailsSent":"38","procStatsSent":"98"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:52:13.624Z" level=info msg="Process LRU stats:"newlyAdded":"133"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:52:13.624Z" level=info msg="Process queue stats:"queued":"156","dequeued":"156"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:52:13.937Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:52:14.344Z" level=info msg="DNS Refresh. Cache size: 5" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:52:14.359Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:52:28.492Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:52:28.492Z" level=info msg="ReportEvents: Success in http post. bytes sent: 644 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:52:43.454Z" level=info msg="Logfile size: 129722" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:53:13.459Z" level=info msg="Logfile size: 129828" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:53:13.521Z" level=info msg="Completing RequestWithRetry. elapsedMS: 15Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:53:13.521Z" level=info msg="ReportEvents: Success in http post. bytes sent: 230 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:53:13.631Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:53:13.631Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:53:13.631Z" level=info msg="Connections statistics: "eventsQueued":"82","sentNetDetails":"54","filteredDNSConnections":"4","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:53:13.631Z" level=info msg="Connections LRU stats:"newlyAdded":"17","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:53:13.631Z" level=info msg="Connections queue stats:"queued":"82","dequeued":"82"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:53:13.631Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:53:13.631Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:53:13.631Z" level=info msg="Process statistics: "eventsQueued":"157","cmdLinesSent":"10","netEventsWithoutProcess":"1","procDetailsSent":"43","procStatsSent":"107"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:53:13.631Z" level=info msg="Process LRU stats:"newlyAdded":"133"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:53:13.631Z" level=info msg="Process queue stats:"queued":"157","dequeued":"157"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:53:13.943Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:53:14.366Z" level=info msg="DNS Refresh. Cache size: 5" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:53:14.381Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:53:43.460Z" level=info msg="Logfile size: 132175" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:53:58.516Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:53:58.516Z" level=info msg="ReportEvents: Success in http post. bytes sent: 1106 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:54:13.468Z" level=info msg="Logfile size: 132588" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:54:13.547Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:54:13.547Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:54:13.640Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:54:13.640Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:54:13.640Z" level=info msg="Connections statistics: "eventsQueued":"84","sentNetDetails":"56","filteredDNSConnections":"4","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:54:13.640Z" level=info msg="Connections LRU stats:"newlyAdded":"17","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:54:13.640Z" level=info msg="Connections queue stats:"queued":"84","dequeued":"84"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:54:13.640Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:54:13.640Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:54:13.640Z" level=info msg="Process statistics: "eventsQueued":"157","cmdLinesSent":"10","netEventsWithoutProcess":"1","procDetailsSent":"47","procStatsSent":"116"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:54:13.640Z" level=info msg="Process LRU stats:"newlyAdded":"133"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:54:13.640Z" level=info msg="Process queue stats:"queued":"157","dequeued":"157"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:54:13.953Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:54:14.387Z" level=info msg="DNS Refresh. Cache size: 5" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:54:14.387Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:54:43.469Z" level=info msg="Logfile size: 134885" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:54:43.516Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:54:43.516Z" level=info msg="ReportEvents: Success in http post. bytes sent: 982 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:55:13.471Z" level=info msg="Logfile size: 135297" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:55:13.643Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:55:13.643Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:55:13.643Z" level=info msg="Connections statistics: "eventsQueued":"92","sentNetDetails":"58","filteredDNSConnections":"6","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:55:13.643Z" level=info msg="Connections LRU stats:"newlyAdded":"17","alreadyThere":"1" active connections in the cache: 2" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:55:13.643Z" level=info msg="Connections queue stats:"queued":"92","dequeued":"92"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:55:13.643Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:55:13.643Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:55:13.643Z" level=info msg="Process statistics: "eventsQueued":"157","cmdLinesSent":"10","netEventsWithoutProcess":"1","procDetailsSent":"49","procStatsSent":"125"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:55:13.643Z" level=info msg="Process LRU stats:"newlyAdded":"133"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:55:13.643Z" level=info msg="Process queue stats:"queued":"157","dequeued":"157"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:55:13.955Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:55:14.410Z" level=info msg="DNS Refresh. Cache size: 5" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:55:14.441Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384
+time="2023-04-11T06:55:28.527Z" level=info msg="Completing RequestWithRetry. elapsedMS: 0Retries: 0, Pings: 0" caller="Transport.cpp:753" pid=3352
+time="2023-04-11T06:55:28.527Z" level=info msg="ReportEvents: Success in http post. bytes sent: 868 total bytes sent: 0" caller="ReportEvts.cpp:33" pid=3352
+time="2023-04-11T06:55:43.473Z" level=info msg="Logfile size: 137643" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:56:13.479Z" level=info msg="Logfile size: 137749" caller="LWLogger.cpp:137" pid=4600
+time="2023-04-11T06:56:13.557Z" level=info msg="Current policy settings: AuditLogoff = 1" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:56:13.557Z" level=info msg="Current policy settings: AuditLogon = 3" caller="AuditPolicy.cpp:115" pid=4120
+time="2023-04-11T06:56:13.651Z" level=info msg="Begin Connections::Refresh" caller="Connections.cpp:195" pid=3676
+time="2023-04-11T06:56:13.651Z" level=error msg="could not open process handle for further details 4 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:56:13.651Z" level=info msg="Connections statistics: "eventsQueued":"100","sentNetDetails":"64","filteredDNSConnections":"6","staleConnections":"4"" caller="Connections.cpp:251" pid=3676
+time="2023-04-11T06:56:13.651Z" level=info msg="Connections LRU stats:"newlyAdded":"21","alreadyThere":"1" active connections in the cache: 6" caller="Connections.cpp:254" pid=3676
+time="2023-04-11T06:56:13.651Z" level=error msg="could not open process handle for further details 756 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:56:13.651Z" level=info msg="Connections queue stats:"queued":"100","dequeued":"100"" caller="Connections.cpp:255" pid=3676
+time="2023-04-11T06:56:13.651Z" level=error msg="could not open process handle for further details 828 ErrorCode = 5" caller="Processes.cpp:398" pid=4588
+time="2023-04-11T06:56:13.651Z" level=info msg="Process statistics: "eventsQueued":"159","cmdLinesSent":"10","netEventsWithoutProcess":"1","procDetailsSent":"50","procStatsSent":"134"" caller="Processes.cpp:242" pid=4588
+time="2023-04-11T06:56:13.651Z" level=info msg="Process LRU stats:"newlyAdded":"134"" caller="Processes.cpp:243" pid=4588
+time="2023-04-11T06:56:13.651Z" level=info msg="Process queue stats:"queued":"159","dequeued":"159"" caller="Processes.cpp:244" pid=4588
+time="2023-04-11T06:56:13.963Z" level=info msg="UserLogon Refresh. UserLogons = 1 FailedLogons =  0" caller="UserLogon.cpp:36" pid=3896
+time="2023-04-11T06:56:14.448Z" level=info msg="DNS Refresh. Cache size: 5" caller="DNS.cpp:6" pid=384
+time="2023-04-11T06:56:14.448Z" level=info msg="Total OS DNS entries: 0" caller="DNS.cpp:24" pid=384

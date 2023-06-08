@@ -1,0 +1,3 @@
+NAME                           READY   STATUS    RESTARTS   AGE   IP          NODE                                      NOMINATED NODE   READINESS GATES
+lacework-agent-windows-2bhj4   1/1     Running   0          31s   10.0.5.70   ip-10-0-5-70.us-west-2.compute.internal   <none>           <none>
+lacework-agent-windows-wjnjd   1/1     Running   0          31s   10.0.4.89   ip-10-0-4-89.us-west-2.compute.internal   <none>           <none>
